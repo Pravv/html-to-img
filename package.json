@@ -1,0 +1,37 @@
+{
+  "name": "obrazki",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-test": "ts-node -r dotenv/config "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "class-transformer": "^0.2.3",
+    "class-validator": "^0.10.2",
+    "dotenv": "^8.2.0",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^3.2.0",
+    "koa-router": "^8.0.0-alpha.1",
+    "puppeteer": "^2.0.0",
+    "reflect-metadata": "^0.1.13",
+    "routing-controllers": "^0.8.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^1.20.2",
+    "@types/cookies": "^0.7.4",
+    "@types/koa": "^2.0.51",
+    "@types/node": "^12.11.1",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0"
+  }
+}
