@@ -13,7 +13,7 @@ export class Controller {
   @ContentType('image/png')
   // @ts-ignore
   @UseBefore(cacheMiddleware(ctx => ctx.request.body.url, 60 * 1000))
-  async socialLogin(
+  async convert(
     @BodyParam('url') url: string,
     @BodyParam('omitBackground') omitBackground: boolean,
     @BodyParam('size') imageSize: Size,
